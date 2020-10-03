@@ -1,0 +1,46 @@
+:root {
+    --purple-color:#313056;
+    --main-font-family:'Inter', sans-serif;
+}
+
+html,body {
+    font-family: var(--main-font-family);
+}
+
+.purple-color {
+    color: var(--purple-color);
+}
+
+.purple-color-bg {
+    background: var(--purple-color);
+}
+
+.navbar {
+    background: #fff !important;
+}
+
+.nav-item {
+    padding: 10px !important;
+    font-size: 18px;
+}
+
+.buttons {
+    border-radius: 6px;
+    color: #fff;
+
+}
+
+.signup-btn-cont {
+    margin-right:100px !important;
+}
+
+.landing {
+    background-image:url(../assets/land-bg.svg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+
+
