@@ -19,4 +19,95 @@
     opacity: 1;
     transition: opacity .15s ease;
 }
-Ekereke18.
+
+.nav-tabs  a {
+    background-color: rgb(131, 117, 117) !important;
+    color: white;
+    border-radius: 0px 20px 0px 0px !important;
+}
+
+.nav-tabs .active {
+    background-color: var(--purple-color) !important;
+    color: #fff !important;
+ 
+}
+
+.nav-tabs a:hover {
+    color: #fff;
+}
+
+
+.col-md-3, .col-md-4{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .col-md-3 img, .col-md-4 img{
+    width:100%;
+    height:auto;
+  }
+  /* body .carousel-indicators li{
+    background-color:red;
+  } */
+  /* body .carousel-control-prev-icon,
+  body .carousel-control-next-icon{
+    background-color:red;
+  } */
+  body .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .opening-head {
+    
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+  }
+
+.about-line {
+color: black;
+width: 60px;
+height: 0px;
+left: 177px;
+top: 801px;
+}
+
+.service-list {
+    font-size:20px;
+    margin: 20px;
+}
+
+.service-list.iconify {
+    position: absolute;
+    width: 11px;
+    height: 7px;
+    left: 782px;
+    top: 1322px;
+    border: 2px solid #313056
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: #F7F7F7 !important;
+border-radius: 4px !important;
+height: 50px;
+}
+
+.checkout-btn {
+    border: 1px solid var(--purple-color) !important;
+    background-color: #fff;
+    color: var(--purple-color) !important;
+}
+
+.check-card {
+    background: #F9F9F9;
+    border: 0.5px solid rgba(49, 48, 86, 0.41);
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 20px;
+}
