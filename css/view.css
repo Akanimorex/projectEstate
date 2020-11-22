@@ -1,0 +1,22 @@
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 50% !important;
+    background-color: var(--purple-color) !important;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 40px !important;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    opacity: 1;
+    transition: opacity .15s ease;
+}
+Ekereke18.

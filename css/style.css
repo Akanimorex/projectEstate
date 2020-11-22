@@ -4,17 +4,22 @@
 }
 
 html,body {
-    font-family: var(--main-font-family);
+    font-family: var(--main-font-family) !important;
 }
 
 .purple-color {
-    color: var(--purple-color);
+    color: var(--purple-color) !important;
 }
 
 .purple-color-bg {
-    background: var(--purple-color);
+    background: var(--purple-color) !important;
 }
 
+.button {
+    border: none;
+    padding: 10px 60px;
+    border-radius: 6px;
+}
 .navbar {
     background: #fff !important;
 }
@@ -39,8 +44,216 @@ html,body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 70vh;
    
 }
 
+header .land {
+    padding-top: 20px;
+    background-image: url(../assets/land.svg);
+    background-size: cover;
+    color: #fff;
+    background-position: center right;
+    background-repeat: no-repeat;
+    height: 50vh;
+    
+    text-align: center;
+}
 
+.land-text > .cta-btn {
+    background: #645B5B;
+    color: white;
+    border-radius: 0;
+    padding: 5px 20px 5px 20px;
+}
+
+section {
+    margin-top: 7%;
+}
+
+.land-form {
+    background: #fff;
+    width: 40vw;
+    height: auto;
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(95, 95, 95, 0.25);
+   border-radius: 6px;
+
+}
+
+.land-form form {
+    margin: 20px auto;
+}
+
+.form-search input,
+.form-search select {
+     background: #F7F7F7 !important;
+     border-radius: 0;
+     margin: 10px 0;
+     border: none;
+     height: 60px;
+}
+
+
+#about p{
+    font-size:20px ;
+    line-height: 30px;
+}
+#about h4 {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+
+
+.property-card {
+    line-height: 15px;
+    background-color: #F1F1F1;
+    width:fit-content;
+    padding: 10px;
+    margin: 20px;
+}
+.property-info {
+    margin-top: -30px;
+}
+.property-img {
+    border-radius: 8px !important;
+}
+
+.tag {
+    background-color: grey;
+    color: black;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+
+/**
+Each tile's image height is known in advance.  at archive.org we use backend (PHP) to fetch that height and then simply have to run a formula like this for picking which 'htX' class to use:
+  'ht' . min(7, floor($imgHT / 40));
+
+We assume 20px gutters, and we _also_ split our grid into 20px high row increments (minimum here is 2 row spans per tile).
+
+So,
+a 'row span' of 2 is  60px high,
+a 'row span' of 3 is 100px high, etc.
+ */
+ .results {
+    /* fit in up to 5 columns of 180px wide tiles, 20px gutters: 5*180 + 4*20: */
+   /* max-width: 980px; */
+   margin: 0 auto;
+   display: grid;
+   grid-gap: 20px;
+   /* fit as many columns as possible, 180px wide each: */
+   grid-template-columns: 1fr 1fr ;   /* each row is 20px high -- we always span 2+ */
+   grid-auto-rows: minmax(20px, auto);
+   justify-content: center;	
+ }
+ 
+ .results > * {
+   /* width: 180px; */
+   /* only for older non-grid browsers: */
+   float: left;  
+   /* only for older non-grid browsers: */
+   margin: 15px;
+ }
+ 
+ 
+ .ht1 { grid-row-end: span 3; }
+ .ht2 { grid-row-end: span 4; }
+ .ht3 { grid-row-end: span 5; }
+ .ht4 { 
+     grid-row-end: span 2;
+    width:400px;
+    text-align: justify;
+     }
+ 
+ 
+ 
+
+ 
+  .media-object {
+    margin: auto;
+    margin-top: 15%;
+  }
+
+  footer {
+    margin-top: 3%;
+    padding: 50px 20px;
+    background-color: var(--purple-color);
+}
+
+.foot-text {
+    font-weight: bold;
+    color: #fff;
+}
+
+.foot-links p {
+    color: #fff;
+}
+.foot-links {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.foot-links a {
+    color: #fff;
+}
+.foot-form input[type="email"]{
+    height: 50px;
+    border:1px solid #fff ;
+}
+
+/* find houses page */
+
+.grey-area {
+  background: #F4F4F4;
+  padding: 10px;
+}
+.see-details {
+  color: var(--purple-color);
+}
+
+.house-card {
+  margin: 30px;
+}
+
+.the-paginate {
+  width: fit-content;
+}
+
+.page-link {
+  color: var(--purple-color) !important;
+}
+.page-link:hover{
+  background: var(--purple-color) !important;
+  color: #fff !important;
+}
+  
+  @media screen and (max-width: 768px) {
+    .media-object {
+      margin-top: 0;
+    }
+  }
+
+@media screen and (min-width: 767px) {
+    .land, .land-one {
+       text-align: left;
+       height: 70vh;
+       min-height: 50vh;
+   }
+
+
+   .land-text{
+    position: relative;
+    top: 121px;
+    left: 22px;
+   }
+}
+
+@media screen and (max-width: 768px) {}
 
