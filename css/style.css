@@ -55,7 +55,7 @@ header .land {
     background-image: url(../assets/land.png);
     background-size: cover;
     color: #fff;
-    background-position:;
+    background-position:center;
     background-repeat: no-repeat;
     height: 50vh;
     
@@ -238,11 +238,11 @@ a 'row span' of 3 is 100px high, etc.
     flex-direction: row;
 }
 .land-text {
-    flex-basis: 40%;
+    flex-basis: 50%;
 
 }
 .land-form {
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
   @media screen and (max-width: 768px) {
     .media-object {
@@ -292,9 +292,15 @@ header .land {
 .ht4{
     width: 100%;
 }
-  }
+
+.property-card {
+    width: 80vw !important;
+}
+
+}
 
 @media screen and (min-width: 767px) {
+    
     .land, .land-one {
        text-align: left;
        height: 70vh;
