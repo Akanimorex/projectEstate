@@ -39,14 +39,15 @@ html,body {
     margin-right:100px !important;
 }
 
-.landing {
+/* .landing {
     background-image:url(../assets/land-bg.png) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 70vh;
    
-}
+} */
+
 
 header .land {
     padding-top: 20px;
@@ -54,7 +55,7 @@ header .land {
     background-image: url(../assets/land.png);
     background-size: cover;
     color: #fff;
-    background-position: center right;
+    background-position:;
     background-repeat: no-repeat;
     height: 50vh;
     
@@ -119,6 +120,9 @@ section {
 .property-info {
     margin-top: -30px;
 }
+.property-info-two {
+    padding: 10px;
+}
 .property-img {
     border-radius: 8px !important;
 }
@@ -154,13 +158,7 @@ a 'row span' of 3 is 100px high, etc.
    justify-content: center;	
  }
  
- .results > * {
-   /* width: 180px; */
-   /* only for older non-grid browsers: */
-   float: left;  
-   /* only for older non-grid browsers: */
-   margin: 15px;
- }
+ 
  
  
  .ht1 { grid-row-end: span 3; }
@@ -235,10 +233,65 @@ a 'row span' of 3 is 100px high, etc.
   color: #fff !important;
 }
   
+.land-wrap {
+    display: flex;
+    flex-direction: row;
+}
+.land-text {
+    flex-basis: 40%;
+
+}
+.land-form {
+    flex-basis: 50%;
+}
   @media screen and (max-width: 768px) {
     .media-object {
       margin-top: 0;
     }
+
+    .land-wrap {
+        flex-direction: column;
+    }
+    .land-text {
+        font-size: 14px;
+    }
+    .land-text h1 {
+        font-size: 20px;
+    }
+    .land-form {
+        background: #fff;
+        width:fit-content;
+        height: auto;
+        position:initial;
+        top: 0;
+        padding: 20px;
+        box-shadow: 0px 4px 4px rgba(95, 95, 95, 0);
+       border-radius: 6px;
+    
+    }
+
+    
+header .land {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(../assets/land.png);  
+      background-size: cover;
+    color: #fff;
+    background-position:;
+    background-repeat: no-repeat;
+    height: auto;
+    
+    text-align: center;
+}
+
+
+.results {
+    display: block;
+    
+}
+.ht4{
+    width: 100%;
+}
   }
 
 @media screen and (min-width: 767px) {
@@ -256,5 +309,4 @@ a 'row span' of 3 is 100px high, etc.
    }
 }
 
-@media screen and (max-width: 768px) {}
 
