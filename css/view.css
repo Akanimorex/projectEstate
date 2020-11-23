@@ -91,13 +91,17 @@ top: 801px;
     border: 2px solid #313056
 }
 
-.contact-form input,
-.contact-form textarea {
+.contact-form input
+{
     background: #F7F7F7 !important;
 border-radius: 4px !important;
 height: 50px;
 }
 
+.contact-form textarea {
+    background: #F7F7F7 !important;
+    border-radius: 4px !important;
+}
 .checkout-btn {
     border: 1px solid var(--purple-color) !important;
     background-color: #fff;

@@ -40,7 +40,7 @@ html,body {
 }
 
 .landing {
-    background-image:url(../assets/land-bg.svg) ;
+    background-image:url(../assets/land-bg.png) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,8 @@ html,body {
 
 header .land {
     padding-top: 20px;
-    background-image: url(../assets/land.svg);
+    padding-bottom: 20px;
+    background-image: url(../assets/land.png);
     background-size: cover;
     color: #fff;
     background-position: center right;
