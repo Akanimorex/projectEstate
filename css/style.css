@@ -270,6 +270,12 @@ a 'row span' of 3 is 100px high, etc.
     
     }
 
+    footer {
+        text-align: center !important;
+    }
+  .foot-text {
+      text-align: center;
+  }
     
 header .land {
     padding-top: 20px;

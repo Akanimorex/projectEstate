@@ -83,9 +83,13 @@
                   <div class="col-md-6">
                       <form action="" class="form-group contact-form">
                           <h5 class="font-weight-bold">How would you like to pay?</h5>
-                          <label for="name" class="d-flex">
-                              <input name="name"  type="radio" placeholder="Your Name"  id="">
-                             <p class="p-3">Debit/Credit Card</p> </label>
+                          <div class="d-flex justify-content-between fake-field">
+                            <label for="name" class="d-flex">
+                                <input name="name"  type="radio" placeholder="Your Name"  id="">
+                                <p class="p-3">Debit/Credit Card</p>
+                              </label>
+                               <span class="iconify mt-3" data-icon="emojione:credit-card" data-inline="false"></span>
+                          </div>
                           <label for="phone">Card Number</label>
                           <input name="phone" class="form-control" type="number" placeholder="xxx-xxx-xxx"  id="">
                           <div class="row">
@@ -102,9 +106,12 @@
                           </div>
                           <label for="email">Email</label>
                           <input name="email" class="form-control" type="email" placeholder="Your Email"  id="">
-                          <label for="name" class="d-flex">
-                            <input name="name"  type="radio" placeholder="Your Name"  id="">
-                           <p class="p-3">Bank Transfer</p> </label>
+                          <div class="d-flex justify-content-between fake-field mt-2">
+                            <label for="name" class="d-flex">
+                                <input name="name"  type="radio" placeholder="Your Name"  id="">
+                                <p class="p-3">Bank Transfer</p>
+                              </label>
+                              <span class="iconify mt-3" data-icon="dashicons:bank" data-inline="false"></span>                          </div>
                          <div class="mt-3">
                              
                              <button class="button purple-color-bg text-white" type="submit">
@@ -184,9 +191,7 @@
                     <h3 class="foot-text">Subscribe to Our NewsLetter</h3>
                     <form class="foot-form" action="#">
                         <input type="email" name="email" placeholder="Enter your email" id="foot-email">
-                        <button class="btn cta-get-btn">Subscribe</button>
-                    </form>
-                    
+                    </form>              
                 </div>
             </div>
         </div>

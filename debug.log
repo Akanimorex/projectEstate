@@ -1,1 +1,20 @@
 [1122/185512.138:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1122/185654.691:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[1122/185654.847:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[1122/185654.847:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffe436c1eb0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1122/185655.097:WARNING:process_snapshot_win.cc(71)] ReadMemory ExceptionInformation failed
+[1122/185654.847:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1122/185654.847:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1122/185654.847:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1122/185654.847:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1122/185654.847:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1122/185655.097:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1122/185655.379:ERROR:exception_snapshot_win.cc(99)] thread ID 4352 not found in process
+[1122/185655.379:ERROR:exception_snapshot_win.cc(99)] thread ID 3980 not found in process
+[1122/185655.379:ERROR:exception_snapshot_win.cc(99)] thread ID 9756 not found in process
+[1122/185655.379:ERROR:exception_snapshot_win.cc(99)] thread ID 2416 not found in process
+[1122/185655.379:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1122/185655.379:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1122/185655.379:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1122/185655.379:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1129/113040.569:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

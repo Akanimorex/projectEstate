@@ -20,10 +20,25 @@
     transition: opacity .15s ease;
 }
 
-.nav-tabs  a {
-    background-color: rgb(131, 117, 117) !important;
+.fake-field{
+  background-color: #F6F6F6 !important;
+  padding: 10px;
+  height: 70px;
+}
+
+.nav-tabs {
+    background-color: #F6F6F6 !important;
     color: white;
     border-radius: 0px 20px 0px 0px !important;
+}
+
+
+.nav-tabs a {
+  color:black !important;
+}
+
+.nav-tabs a:hover {
+  color:black !important;
 }
 
 .nav-tabs .active {
@@ -36,6 +51,9 @@
     color: #fff;
 }
 
+.active-slide {
+  color:var(--purple-color) !important;
+}
 
 .col-md-3, .col-md-4{
     display: inline-block;
@@ -96,6 +114,7 @@ top: 801px;
     background: #F7F7F7 !important;
 border-radius: 4px !important;
 height: 50px;
+border:none !important;
 }
 
 .contact-form textarea {
