@@ -253,6 +253,9 @@ footer {
 .main {
   padding-top: 8%;
 }
+.extra-main {
+  margin-top: 10%;
+}
 
 .land-wrap {
   display: flex;
@@ -300,10 +303,10 @@ footer {
   }
 
   footer {
-    text-align: center !important;
+    text-align: left !important;
   }
   .foot-text {
-    text-align: center;
+    text-align: left;
   }
 
   header .land {
