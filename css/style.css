@@ -51,7 +51,7 @@ body {
 header .land {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-image: url(../assets/land.png);
+  background-image: url(../assets/component-min.png);
   background-size: cover;
   color: #fff;
   background-position: center;
@@ -269,10 +269,12 @@ footer {
 }
 button.land-btn {
   transition: all 0.7s ease-in-out;
-}
-button.land-btn:hover {
   background: #fff !important;
   color: var(--purple-color) !important;
+}
+button.land-btn:hover {
+  color: #fff !important;
+  background-color: var(--purple-color) !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -295,7 +297,6 @@ button.land-btn:hover {
   }
   .land-text {
     font-size: 14px;
-    color: #000;
   }
   .land-text h1 {
     font-size: 20px;
@@ -320,13 +321,13 @@ button.land-btn:hover {
 
   header .land {
     padding-top: 20px;
-    padding-bottom: 20px;
-    background-image: url(../assets/land.png);
+    padding-bottom: 5rem;
+    background-image: url(../assets/component-min.png);
     background-size: cover;
     color: #fff;
-    background-position: ;
+    background-position: center;
     background-repeat: no-repeat;
-    height: auto;
+    height: auto !important;
 
     text-align: center;
   }
