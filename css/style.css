@@ -267,6 +267,14 @@ footer {
 .land-form {
   flex-basis: 40%;
 }
+button.land-btn {
+  transition: all 0.7s ease-in-out;
+}
+button.land-btn:hover {
+  background: #fff !important;
+  color: var(--purple-color) !important;
+}
+
 @media screen and (max-width: 768px) {
   .media-object {
     margin-top: 0;
@@ -287,6 +295,7 @@ footer {
   }
   .land-text {
     font-size: 14px;
+    color: #000;
   }
   .land-text h1 {
     font-size: 20px;
