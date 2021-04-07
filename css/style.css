@@ -74,7 +74,10 @@ section {
 
 .land-form {
   background: #fff;
-  width: 40vw;
+  width: -moz-fit-content;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
   height: auto;
   position: relative;
   top: 70px;
@@ -303,7 +306,8 @@ button.land-btn:hover {
   }
   .land-form {
     background: #fff;
-    width: fit-content;
+    flex-basis: 100%;
+    width: 100%;
     height: auto;
     position: initial;
     top: 0;
