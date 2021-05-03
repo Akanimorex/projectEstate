@@ -280,6 +280,19 @@ button.land-btn:hover {
   background-color: var(--purple-color) !important;
 }
 
+/* for the buttons */
+.bg-white {
+  background-color: #fff;
+  color: black;
+}
+
+/* making avatars img circular */
+.client-img img {
+  height: 126px;
+  width: 126px;
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 768px) {
   .media-object {
     margin-top: 0;
