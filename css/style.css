@@ -51,7 +51,7 @@ body {
 header .land {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-image: url(../assets/component-min.png);
+  background-image: url(../assets/newland.jpg);
   background-size: cover;
   color: #fff;
   background-position: center;
@@ -298,6 +298,10 @@ button.land-btn:hover {
     margin-top: 0;
   }
 
+  .ht3 {
+    display: none;
+  }
+
   .add-room {
     height: 40px;
   }
@@ -330,16 +334,16 @@ button.land-btn:hover {
   }
 
   footer {
-    text-align: left !important;
+    text-align: center !important;
   }
   .foot-text {
-    text-align: left;
+    text-align: center;
   }
 
   header .land {
     padding-top: 20px;
     padding-bottom: 5rem;
-    background-image: url(../assets/component-min.png);
+    background-image: url(../assets/newland.jpg);
     background-size: cover;
     color: #fff;
     background-position: center;

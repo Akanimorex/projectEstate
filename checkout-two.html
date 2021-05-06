@@ -22,15 +22,18 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="icon" href="assets/rsz_logo.png" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/view.css">
+    <link rel="stylesheet" href="css/view.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <title>Hello, world!</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#"
+          ><img src="assets/rsz_logo.png" alt="logo"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -70,137 +73,179 @@
           </div>
         </div>
       </nav>
-
-      
     </header>
 
     <div class="">
       <section>
-          
-          <div class="container">
-            <p>Home > Search > Monty Suites > Checkout</p>
-              <div class="row">
+        <div class="container">
+          <p>Home > Search > Monty Suites > Checkout</p>
+          <div class="row">
+            <div class="col-md-6">
+              <form action="" class="form-group contact-form">
+                <h5 class="font-weight-bold">How would you like to pay?</h5>
+                <div class="d-flex justify-content-between fake-field">
+                  <label for="name" class="d-flex">
+                    <input
+                      name="name"
+                      type="radio"
+                      placeholder="Your Name"
+                      id=""
+                    />
+                    <p class="p-3">Debit/Credit Card</p>
+                  </label>
+                  <span
+                    class="iconify mt-3"
+                    data-icon="emojione:credit-card"
+                    data-inline="false"
+                  ></span>
+                </div>
+                <label for="phone">Card Number</label>
+                <input
+                  name="phone"
+                  class="form-control"
+                  type="number"
+                  placeholder="xxx-xxx-xxx"
+                  id=""
+                />
+                <div class="row">
                   <div class="col-md-6">
-                      <form action="" class="form-group contact-form">
-                          <h5 class="font-weight-bold">How would you like to pay?</h5>
-                          <div class="d-flex justify-content-between fake-field">
-                            <label for="name" class="d-flex">
-                                <input name="name"  type="radio" placeholder="Your Name"  id="">
-                                <p class="p-3">Debit/Credit Card</p>
-                              </label>
-                               <span class="iconify mt-3" data-icon="emojione:credit-card" data-inline="false"></span>
-                          </div>
-                          <label for="phone">Card Number</label>
-                          <input name="phone" class="form-control" type="number" placeholder="xxx-xxx-xxx"  id="">
-                          <div class="row">
-                              <div class="col-md-6">
-                                <label for="phone">Card Number</label>
-                                <input name="phone" class="form-control" type="number" placeholder="12/23"  id="">
-                               
-                              </div>
-                              <div class="col-md-6">
-                                <label for="phone">CVV</label>
-                                <input name="phone" class="form-control" type="number" placeholder="433"  id="">
-                               
-                              </div>
-                          </div>
-                          <label for="email">Email</label>
-                          <input name="email" class="form-control" type="email" placeholder="Your Email"  id="">
-                          <div class="d-flex justify-content-between fake-field mt-2">
-                            <label for="name" class="d-flex">
-                                <input name="name"  type="radio" placeholder="Your Name"  id="">
-                                <p class="p-3">Bank Transfer</p>
-                              </label>
-                              <span class="iconify mt-3" data-icon="dashicons:bank" data-inline="false"></span>                          </div>
-                            </form>
-                            <!-- move this block in the form if you want to post the form -->
-                           <div class="mt-3">
-                               <a href="success.html">
-  
-                                 <button class="button purple-color-bg text-white" >
-                                       Continue
-                                 </button>
-                               </a>
-  
-                           </div>
-                           <!-- block ends here -->
+                    <label for="phone">Card Number</label>
+                    <input
+                      name="phone"
+                      class="form-control"
+                      type="number"
+                      placeholder="12/23"
+                      id=""
+                    />
                   </div>
-                  <div class="col-md-5">
-                      <div class="check-card">
-
-                          <div class="row">
-                              <div class="col-md-6">
-                                  <img src="assets/check-img.png" class="img-fluid" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                  <h5 class="font-weight-bold">Monty hotels and suites</h5>
-                                  <p>K47 Ewet Housing Estate</p>
-                              </div>
-                          </div>
-                          <div class="row">
-                              <div class="col-md-4 col-sm-4 col-xs-4">
-                                  <h5 class="font-weight-bold">Check In</h5>
-                                  <p>24/09/2020</p>
-                              </div>
-                              <div class="col-md-4 col-sm-4 col-xs-4">
-                                  <span class="iconify" style="font-size: 20px;" data-icon="bi:arrow-left-right" data-inline="false"></span>
-                              </div>
-                              <div class="col-md-4 col-sm-4 col-xs-4">
-                                  <h5 class="font-weight-bold">Check Out</h5>
-                                  <p>24/09/2020</p>
-                              </div>
-                          </div>
-                         <h5>Time</h5>
-                         <p>12:00PM</p>
-      
-                         <p class="font-weight-bold">1 Room, 1 Night</p>
-                         <p>Subtotal: #4,500</p>
-                      </div>
-                      
+                  <div class="col-md-6">
+                    <label for="phone">CVV</label>
+                    <input
+                      name="phone"
+                      class="form-control"
+                      type="number"
+                      placeholder="433"
+                      id=""
+                    />
                   </div>
+                </div>
+                <label for="email">Email</label>
+                <input
+                  name="email"
+                  class="form-control"
+                  type="email"
+                  placeholder="Your Email"
+                  id=""
+                />
+                <div class="d-flex justify-content-between fake-field mt-2">
+                  <label for="name" class="d-flex">
+                    <input
+                      name="name"
+                      type="radio"
+                      placeholder="Your Name"
+                      id=""
+                    />
+                    <p class="p-3">Bank Transfer</p>
+                  </label>
+                  <span
+                    class="iconify mt-3"
+                    data-icon="dashicons:bank"
+                    data-inline="false"
+                  ></span>
+                </div>
+              </form>
+              <!-- move this block in the form if you want to post the form -->
+              <div class="mt-3">
+                <a href="success.html">
+                  <button class="button purple-color-bg text-white">
+                    Continue
+                  </button>
+                </a>
               </div>
+              <!-- block ends here -->
+            </div>
+            <div class="col-md-5">
+              <div class="check-card">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="assets/check-img.png" class="img-fluid" alt="" />
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="font-weight-bold">Monty hotels and suites</h5>
+                    <p>K47 Ewet Housing Estate</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 col-sm-4 col-xs-4">
+                    <h5 class="font-weight-bold">Check In</h5>
+                    <p>24/09/2020</p>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-4">
+                    <span
+                      class="iconify"
+                      style="font-size: 20px"
+                      data-icon="bi:arrow-left-right"
+                      data-inline="false"
+                    ></span>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-4">
+                    <h5 class="font-weight-bold">Check Out</h5>
+                    <p>24/09/2020</p>
+                  </div>
+                </div>
+                <h5>Time</h5>
+                <p>12:00PM</p>
+
+                <p class="font-weight-bold">1 Room, 1 Night</p>
+                <p>Subtotal: #4,500</p>
+              </div>
+            </div>
           </div>
+        </div>
       </section>
-
-      
-
-
-    
 
       <footer>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3">
-                  <ul class="foot-links">
-                    <h2 class="foot-text">Nadio</h2>
-                  </ul>                </div>
-                <div class="col-md-3">
-                    <ul class="foot-links">
-                    <p> Quick Links</p>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">FAQs</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <ul class="foot-links">
-                        <p> Legal Stuff</p>
-                            <li><a href="#">Disclaimer</a></li>
-                            <li><a href="#">Financing</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h3 class="foot-text">Subscribe to Our NewsLetter</h3>
-                    <form class="foot-form" action="#">
-                        <input type="email" name="email" placeholder="Enter your email" id="foot-email">
-                    </form>              
-                </div>
+          <div class="row">
+            <div class="col-md-3 col-xs-12">
+              <ul class="foot-links">
+                <h2 class="foot-text">Nadio</h2>
+              </ul>
             </div>
+            <div class="col-md-3 col-xs-12">
+              <ul class="foot-links">
+                <p>Quick Links</p>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-xs-12">
+              <ul class="foot-links">
+                <p>Legal Stuff</p>
+                <li><a href="#">Disclaimer</a></li>
+                <li><a href="#">Financing</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-xs-12">
+              <ul class="foot-links">
+                <h3 class="foot-text">Subscribe to Our NewsLetter</h3>
+                <form class="foot-form" action="#">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    id="foot-email"
+                  />
+                </form>
+              </ul>
+            </div>
+          </div>
         </div>
-    </footer>
+      </footer>
     </div>
 
     <!-- Optional JavaScript -->
